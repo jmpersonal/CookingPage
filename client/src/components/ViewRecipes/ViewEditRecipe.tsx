@@ -29,16 +29,10 @@ const EditRecipe: React.FC<Props> = ({ recipe }) => {
     }
   }, [])
 
-  useEffect(()=>{
-    console.log(errors.directions);
-  }, [errors])
-
   const onSubmit = (data: any) => {
-    
     let id = recipe.uuid
-    // dispatch(initEditRecipe(id, data))
+    dispatch(initEditRecipe(id, data))
   }
-
   
   return (
     <>

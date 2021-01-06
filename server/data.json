@@ -400,76 +400,70 @@
         "small": "/img/pancake_mountain--s.jpg"
       },
       "servings": 8,
-      "prepTime": "15",
-      "cookTime": "20",
+      "prepTime": 15,
+      "cookTime": 20,
       "postDate": "04/14/2018 07:28:54 PM",
       "editDate": "04/17/2018 03:20:16 PM",
       "ingredients": [
         {
           "uuid": "aa1ff525-4190-4a66-8d12-3f383a752b55",
-          "name": "milk",
+          "amount": 1.5,
           "measurement": "cups",
-          "amount": "1.5"
+          "name": "milk"
         },
         {
           "uuid": "d4fbd3ee-add4-4e86-b8bb-898a97d5be78",
-          "name": "white vinegar",
+          "amount": 4,
           "measurement": "tablespoons",
-          "amount": "4"
+          "name": "white vinegar"
         },
         {
           "uuid": "811a6f12-428e-4110-abcd-508e4080bc5c",
-          "name": "all-purpose flour",
+          "amount": 2,
           "measurement": "cups",
-          "amount": "2"
+          "name": "all-purpose flour"
         },
         {
           "uuid": "28ed1238-648b-4559-a83c-5a2fb5f4ad25",
-          "name": "white sugar",
+          "amount": 4,
           "measurement": "tablespoons",
-          "amount": "4"
+          "name": "white sugar"
         },
         {
           "uuid": "698345bd-078d-495f-b233-df1b756dd8a7",
-          "name": "baking powder",
+          "amount": 2,
           "measurement": "teaspoons",
-          "amount": "2"
+          "name": "baking powder"
         },
         {
           "uuid": "6d4176cc-0c48-4e19-9d38-bb16578423a4",
-          "name": "baking soda",
+          "amount": 1,
           "measurement": "teaspoon",
-          "amount": "1"
+          "name": "baking soda"
         },
         {
           "uuid": "210b15ac-552e-4450-b162-c0a41bb3389d",
-          "name": "salt",
+          "amount": 1,
           "measurement": "teaspoon",
-          "amount": "1"
+          "name": "salt"
         },
         {
           "uuid": "3d810ba9-7e4e-48aa-b2e9-7918e38b358d",
-          "name": "eggs",
+          "amount": 2,
           "measurement": "",
-          "amount": "2"
+          "name": "eggs"
         },
         {
           "uuid": "77ae45d7-659b-4cb5-a4ea-07f00e442974",
-          "name": "butter, melted",
+          "amount": 4,
           "measurement": "tablespoons",
-          "amount": "4"
+          "name": "butter, melted"
         },
         {
           "uuid": "c8be68ed-d83b-4e6c-ba7a-082d3dc167f4",
-          "name": "cooking spray",
+          "amount": null,
           "measurement": "",
-          "amount": ""
-        },
-        {
-          "uuid": "",
-          "name": "new ing",
-          "measurement": "cup",
-          "amount": "1"
+          "name": "cooking spray"
         }
       ],
       "directions": [

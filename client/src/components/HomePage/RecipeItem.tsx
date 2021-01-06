@@ -52,8 +52,8 @@ const RecipeItem: React.FC<Props> = ({ recipe, fullview = false }) => {
         <div className="cook-time">
           {!fullview && (
             <>
-              <div><strong>Cook time:</strong> {cookTime}</div>
-              <div><strong>Servings: </strong> {servings} Person</div>
+              <div className="item-cook-time"><strong>Cook time:</strong> {cookTime}</div>
+              <div className="item-servings"><strong>Servings: </strong> {servings} Person</div>
             </>
           )}
           

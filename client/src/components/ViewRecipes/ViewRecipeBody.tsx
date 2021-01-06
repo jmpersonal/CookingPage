@@ -57,7 +57,7 @@ const ViewRecipeBody: React.FC<Props> = ({ recipe, specials, specialError = fals
   return (
     <div className="view-body">
       <div className="view-actions">
-        <div><Link to={`/edit/${recipe.uuid}`}>Edit</Link></div>
+        <div ><Link to={`/edit/${recipe.uuid}`}>Edit Recipe</Link></div>
       </div>
       {specialError && (<div className="item-special" style={{backgroundColor: 'tomato'}}>Error loading coupons. Come back later to get yours!</div>)}
       <div className="recipe-information">

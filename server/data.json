@@ -464,6 +464,12 @@
           "name": "cooking spray",
           "measurement": "",
           "amount": ""
+        },
+        {
+          "uuid": "",
+          "name": "new ing",
+          "measurement": "cup",
+          "amount": "1"
         }
       ],
       "directions": [

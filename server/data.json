@@ -230,7 +230,7 @@
     },
     {
       "uuid": "3555aec3-47e1-44d4-b8f2-607aad5cee67",
-      "title": "Kielbasa Skillet5",
+      "title": "Kielbasa Skillet",
       "description": "A polish delicacy.",
       "images": {
         "full": "/img/kielbasa_skillet.jpg",
@@ -238,55 +238,64 @@
         "small": "/img/kielbasa_skillet--s.jpg"
       },
       "servings": 8,
-      "prepTime": "20",
-      "cookTime": "20",
+      "prepTime": 20,
+      "cookTime": 20,
       "postDate": "03/12/2018 01:51:12 PM",
       "editDate": "03/15/2018 04:14:03 PM",
       "ingredients": [
         {
-          "name": "kielbasa sausage",
+          "uuid": "3d810ba9-7e4e-48aa-b2e9-7918e38b358d",
+          "amount": 1,
           "measurement": "package (13.5 oz)",
-          "amount": "1"
+          "name": "kielbasa sausage"
         },
         {
-          "name": "Test ingridient",
+          "uuid": "6d5dce01-b305-4df1-875e-1354a048bcea",
+          "amount": 1,
           "measurement": "cup",
-          "amount": "1"
+          "name": "carrot, sliced into small chunks"
         },
         {
-          "name": "large onion, coarsely chopped",
+          "uuid": "6278b9e5-3862-44f8-97b0-5bd37bb70141",
+          "amount": 1,
           "measurement": "",
-          "amount": "1"
+          "name": "large onion, coarsely chopped"
         },
         {
-          "name": "butter",
+          "uuid": "77ae45d7-659b-4cb5-a4ea-07f00e442974",
+          "amount": 2,
           "measurement": "tablespoons",
-          "amount": "2"
+          "name": "butter"
         },
         {
-          "name": "small head of cabbage, cut into wedges",
+          "uuid": "efdc9267-cfbb-4e3e-90e2-1fe7287ed4e6",
+          "amount": 1,
           "measurement": "",
-          "amount": "1"
+          "name": "small head of cabbage, cut into wedges"
         },
         {
-          "name": "dried thyme",
+          "uuid": "e616c374-ed92-4b99-81c2-f73d180601e8",
+          "amount": 0.5,
           "measurement": "teaspoon",
-          "amount": "0.5"
+          "name": "dried thyme"
         },
         {
-          "name": "salt",
+          "uuid": "210b15ac-552e-4450-b162-c0a41bb3389d",
+          "amount": 0.25,
           "measurement": "teaspoon",
-          "amount": "0.25"
+          "name": "salt"
         },
         {
-          "name": "black pepper",
+          "uuid": "5fc6a47f-7ef4-48ab-a5d9-384417dc63cf",
+          "amount": 0.25,
           "measurement": "teaspoon",
-          "amount": "0.25"
+          "name": "black pepper"
         },
         {
-          "name": "refrigerated prepared mashed potatoes",
+          "uuid": "da4df371-eb5d-44f6-905c-6c10255b24b4",
+          "amount": 2,
           "measurement": "packages (24 oz each)",
-          "amount": "2"
+          "name": "refrigerated prepared mashed potatoes"
         }
       ],
       "directions": [
@@ -318,30 +327,40 @@
         "small": "/img/brussel_chips--s.jpg"
       },
       "servings": 4,
-      "prepTime": "15",
-      "cookTime": "25",
+      "prepTime": 15,
+      "cookTime": 25,
       "postDate": "03/28/2018 01:27:51 AM",
       "editDate": "03/30/2018 05:51:52 PM",
       "ingredients": [
         {
-          "name": "buttering",
+          "uuid": "77ae45d7-659b-4cb5-a4ea-07f00e442974",
+          "amount": 2,
           "measurement": "tablespoons",
-          "amount": "2"
+          "name": "butter"
         },
         {
-          "name": "dijon mustard",
+          "uuid": "86b9842d-3025-4d27-82aa-459ef4f8ab7f",
+          "amount": 1.5,
           "measurement": "teaspoons",
-          "amount": "1.5"
+          "name": "dijon mustard"
         },
         {
-          "name": "salt",
+          "uuid": "210b15ac-552e-4450-b162-c0a41bb3389d",
+          "amount": 0.25,
           "measurement": "teaspoon",
-          "amount": "0.25"
+          "name": "salt"
         },
         {
-          "name": "red pepper flakes",
+          "uuid": "3d6ee987-8ffd-479c-88e0-e3eca690704f",
+          "amount": 1,
           "measurement": "pinch",
-          "amount": "1"
+          "name": "red pepper flakes"
+        },
+        {
+          "uuid": "95e5a38d-26db-4e90-9773-d6be11a280df",
+          "amount": 1,
+          "measurement": "pound",
+          "name": "brussel sprouts"
         }
       ],
       "directions": [
@@ -367,6 +386,97 @@
         },
         {
           "instructions": "Roast leaves in the preheated oven until wilted and lightly browned, about 15 minutes. Transfer any crispy leaves to a serving plate and continue roasting, removing crispy leaves at 5-minute intervals, until all leaves are crispy, about 10 minutes more.",
+          "optional": false
+        }
+      ]
+    },
+    {
+      "uuid": "f8fc88dc-2f89-43fa-b431-00d90eeba521",
+      "title": "Pancake Mountain",
+      "description": "A giant stack of pancakes to share or to horde.",
+      "images": {
+        "full": "/img/pancake_mountain.jpg",
+        "medium": "/img/pancake_mountain--m.jpg",
+        "small": "/img/pancake_mountain--s.jpg"
+      },
+      "servings": 8,
+      "prepTime": "15",
+      "cookTime": "20",
+      "postDate": "04/14/2018 07:28:54 PM",
+      "editDate": "04/17/2018 03:20:16 PM",
+      "ingredients": [
+        {
+          "uuid": "aa1ff525-4190-4a66-8d12-3f383a752b55",
+          "name": "milk",
+          "measurement": "cups",
+          "amount": "1.5"
+        },
+        {
+          "uuid": "d4fbd3ee-add4-4e86-b8bb-898a97d5be78",
+          "name": "white vinegar",
+          "measurement": "tablespoons",
+          "amount": "4"
+        },
+        {
+          "uuid": "811a6f12-428e-4110-abcd-508e4080bc5c",
+          "name": "all-purpose flour",
+          "measurement": "cups",
+          "amount": "2"
+        },
+        {
+          "uuid": "28ed1238-648b-4559-a83c-5a2fb5f4ad25",
+          "name": "white sugar",
+          "measurement": "tablespoons",
+          "amount": "4"
+        },
+        {
+          "uuid": "698345bd-078d-495f-b233-df1b756dd8a7",
+          "name": "baking powder",
+          "measurement": "teaspoons",
+          "amount": "2"
+        },
+        {
+          "uuid": "6d4176cc-0c48-4e19-9d38-bb16578423a4",
+          "name": "baking soda",
+          "measurement": "teaspoon",
+          "amount": "1"
+        },
+        {
+          "uuid": "210b15ac-552e-4450-b162-c0a41bb3389d",
+          "name": "salt",
+          "measurement": "teaspoon",
+          "amount": "1"
+        },
+        {
+          "uuid": "3d810ba9-7e4e-48aa-b2e9-7918e38b358d",
+          "name": "eggs",
+          "measurement": "",
+          "amount": "2"
+        },
+        {
+          "uuid": "77ae45d7-659b-4cb5-a4ea-07f00e442974",
+          "name": "butter, melted",
+          "measurement": "tablespoons",
+          "amount": "4"
+        },
+        {
+          "uuid": "c8be68ed-d83b-4e6c-ba7a-082d3dc167f4",
+          "name": "cooking spray",
+          "measurement": "",
+          "amount": ""
+        }
+      ],
+      "directions": [
+        {
+          "instructions": "Combine milk with vinegar in a medium bowl and set aside for 5 minutes to \"sour\".",
+          "optional": false
+        },
+        {
+          "instructions": "Combine flour, sugar, baking powder, baking soda, and salt in a large mixing bowl. Whisk egg and butter into \"soured\" milk. Pour the flour mixture into the wet ingredients and whisk until lumps are gone.",
+          "optional": false
+        },
+        {
+          "instructions": "Heat a large skillet over medium heat, and coat with cooking spray. Pour 1/4 cupfuls of batter onto the skillet, and cook until bubbles appear on the surface. Flip with a spatula, and cook until browned on the other side.",
           "optional": false
         }
       ]

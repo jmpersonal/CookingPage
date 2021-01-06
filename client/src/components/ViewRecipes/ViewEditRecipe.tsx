@@ -19,8 +19,8 @@ const EditRecipe: React.FC<Props> = ({ recipe }) => {
   const dispatch = useDispatch();
   const { register, handleSubmit, control } = useForm({defaultValues: recipe});
 
-  const { fields: ingredientsField, append: ingredientsAppend, remove: removeIngredient } = useFieldArray({control, name: "ingredients"})
-  const { fields: directionsField, append: directionsAppend, remove: removeDirection } = useFieldArray({control, name: "directions"})
+  const { fields: ingredientsField, append: ingredientsAppend, remove: removeIngredient, append: appendIngredient } = useFieldArray({control, name: "ingredients"})
+  const { fields: directionsField, append: directionsAppend, remove: removeDirection, append: appendDirection } = useFieldArray({control, name: "directions"})
 
   useEffect(() => {
     return () => {
@@ -30,6 +30,8 @@ const EditRecipe: React.FC<Props> = ({ recipe }) => {
   }, [])
 
   const onSubmit = (data: any) => {
+    console.log(data);
+    
     let id = recipe.uuid
     dispatch(initEditRecipe(id, data))
   }
@@ -49,6 +51,7 @@ const EditRecipe: React.FC<Props> = ({ recipe }) => {
           let _idx = idx + 1
           return (
             <div style={{width: '100%', display: 'flex', flexDirection: 'row', alignItems: 'center'}} key={i.uuid}>
+              <Input defaultValue={i.uuid} name={`ingredients[${idx}].uuid`} ref={register()} type="hidden"/>
               <Input defaultValue={i.name} label={`Ingredient ${_idx}`} name={`ingredients[${idx}].name`} ref={register()}/>
               <Input defaultValue={i.measurement} label={`Measurement`} name={`ingredients[${idx}].measurement`} ref={register()} style={{width: '70px'}}/>
               <Input defaultValue={i.amount} label={`Amount`} name={`ingredients[${idx}].amount`} ref={register()} style={{width: '30px'}}/>
@@ -56,6 +59,7 @@ const EditRecipe: React.FC<Props> = ({ recipe }) => {
             </div>
           )
         })}
+        <Button onClick={()=> appendIngredient({name: "", measurement: "", amount: ""})} text="Add">Add</Button>
         <h4>Directions List:</h4>
         {directionsField.map((d, idx)=>{
           let _idx = idx + 1;

@@ -59,7 +59,7 @@ const EditRecipe: React.FC<Props> = ({ recipe }) => {
             </div>
           )
         })}
-        <Button onClick={()=> appendIngredient({name: "", measurement: "", amount: ""})} text="Add">Add</Button>
+        <Button onClick={()=> appendIngredient({name: "", measurement: "", amount: ""})} text="Add Ingredient"/ >
         <h4>Directions List:</h4>
         {directionsField.map((d, idx)=>{
           let _idx = idx + 1;
@@ -71,6 +71,7 @@ const EditRecipe: React.FC<Props> = ({ recipe }) => {
             </div>
           )
         })}
+        <Button onClick={()=> appendDirection({instructions: "", optional: false})} text="Add Direction" />
         {store.update_recipe.loading && <div style={{backgroundColor: 'thistle', padding: '5px'}}>Loading...</div>}
         {store.update_recipe.loaded && <div style={{backgroundColor: 'yellowgreen', padding: '5px'}}>Saved</div>}
         {store.update_recipe.error && <div style={{backgroundColor: 'tomato', padding: '5px'}}>An Error Occured</div>}

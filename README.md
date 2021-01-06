@@ -15,6 +15,7 @@ Install the dependencies for both the client and the server.
 * Create a recipe detail view to display each recipe
 * Ingredients with a matching ingredientId listed in the specials response should also show the special title, type and text under the ingredient name
 * Update a view to add and update recipes and instructions. 
+* Validates fields on editing fields.
 
 ## Usage
 - The website shows a list of recipes. Click on any of them to view  a detailed view of the recipe.
